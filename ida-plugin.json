@@ -1,0 +1,36 @@
+{
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+        "name": "unix-time-format",
+        "version": "1.0.0",
+        "entryPoint": "unix_time_format_plugin.py",
+        "description": "Format Unix timestamps in various units (seconds, milliseconds, microseconds, nanoseconds) in both UTC and local time",
+        "license": "MIT",
+        "urls": {
+            "repository": "https://github.com/milankovo/unix-time-format"
+        },
+        "authors": [
+            {
+                "name": "Milankovo",
+                "email": "unix-time-format@noreply.github.com"
+            }
+        ],
+        "idaVersions": ">=9.0",
+        "platforms": [
+            "windows-x86_64",
+            "linux-x86_64",
+            "macos-x86_64",
+            "macos-aarch64"
+        ],
+        "categories": [
+            "ui-ux-and-visualization",
+            "api-scripting-and-automation"
+        ],
+        "keywords": [
+            "timestamp",
+            "epoch",
+            "data-format",
+            "time-conversion"
+        ]
+    }
+}
